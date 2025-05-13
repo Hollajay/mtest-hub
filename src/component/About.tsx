@@ -1,9 +1,9 @@
 import profileImg from '../assets/images/albert-dera-ILip77SbmOE-unsplash.jpg'
 export const About = () => {
   return (
-    <div className="">
-      <div>
-        <img src={profileImg} alt="profile" />
+    <div className="p-4">
+      <div className='rounded-full'>
+        <img className="w-full h-96 rounded-full" src={profileImg} alt="profile" />
       </div>
 
       <div>
